@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@200&display=swap');
+*{
+    padding:0px;
+    margin:0px;
+    font-family: 'Martian Mono', monospace;
+}
+.nav{
+    background-color: #071E3E;
+    justify-content: center;
+    display: flex;
+    position: sticky;
+}
+.logo{
+    width: 250px;
+}
+
+.left{
+    position: sticky;
+    background-color: #A5D7E8;
+    width: 16%;
+    height:85.3vh;
+    scroll-behavior: smooth;
+    overflow: auto;
+    scrollbar-width: 50px;
+}
+
+.container{
+    display: flex;
+}
+
+.newfile{
+    padding:10px;
+    border: 2.5px solid #0B2447;
+    background-color: #A5D7E8;
+    font-size: 20px;
+    margin:20px 10px;
+    margin-left:30px;
+    border-radius: 10px;
+    transition: background 0.3s ease-in-out;
+}
+
+.newfile:hover{
+    cursor: pointer;
+    background-color: #48c3ec;
+}
+
+.icon{
+    width: 16px;
+    height: 40px;
+    border-radius: 15px 0px 0px 15px;
+    background: #576CBC;
+}
+
+.file{
+    margin:10px;
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    transition: background 0.3s ease-in-out;
+}
+
+.file:hover{
+    cursor: pointer;
+    background-color: #48c3ec;
+}
+
+.name{
+    margin-left: 5px;
+    align-self: center;
+    font-size: 20px;
+}
+
+.right{
+    width:84%;
+    background: #D6E6EB;
+}
+
+.editor{
+    margin:30px 50px;
+}
+
+.head{
+    background: #19376D;
+    color: white;
+    height: 35px;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 23px;
+}
+
+#text{
+    padding: 15px 10px;
+    outline: none;
+    resize: none;
+    width: 98.2%;
+    max-width: 98.2%;
+    border-radius: 0;
+    border: none;
+    height: 60vh;
+}
+
+.strip{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.download{
+    background: #19376D;
+    color: white;
+    font-size: 23px;
+    height: 50px;
+    padding:10px;
+    border-radius: 10px;
+    border: none;
+    transition: background 0.3s ease-in-out;
+}
+
+.download:hover{
+    cursor: pointer;
+    background: #2856aa;
+}
